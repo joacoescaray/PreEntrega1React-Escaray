@@ -7,7 +7,7 @@ const badgeStyle = {
     padding: '2px 6px',
 };
 
-const CardWidget = ({ cantidad }) => {
+const CartWidget = ({ cantidad }) => {
     return (
         <div className="text-center position-relative">
             <FaShoppingCart size={20} />
@@ -20,4 +20,4 @@ const CardWidget = ({ cantidad }) => {
     );
 };
 
-export default CardWidget;
+export default CartWidget;

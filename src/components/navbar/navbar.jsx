@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import CardWidget from '../cardwidget/cardwidget';
+import CartWidget from '../cartwidget/cartwidget';
 import imagenCarrito from '../../assets/img/logo 9z.png';
 
 const navItemStyle = {
@@ -33,7 +33,7 @@ const AppNavbar = () => {
                     </NavDropdown>
                     <Nav.Link style={navItemStyle} href="/novedades">Novedades</Nav.Link>
                     <Nav.Link style={navItemStyle} href="/carrito">
-                        <CardWidget cantidad={cantidadProductosEnCarrito} />
+                        <CartWidget cantidad={cantidadProductosEnCarrito} />
                     </Nav.Link>
                 </Nav>
             </Container>
