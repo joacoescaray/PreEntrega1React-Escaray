@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import CartWidget from '../cartwidget/cartwidget';
+import CartWidget from '../Cartwidget/Cartwidget';
 import imagenCarrito from '../../assets/img/logo 9z.png';
 
 const navItemStyle = {
